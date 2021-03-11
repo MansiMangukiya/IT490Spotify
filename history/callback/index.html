@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script>
+        document.addEventListener(
+            "DOMContentLoaded",
+            function(event) {
+
+                // This page is where the user will be redirected to. The
+                // url will have a ?code query parameter:
+                // http://localhost:8888/callback/?code=LongRandomString
+
+                var code = window.location.search.split('=')[1];
+                window.location.href = "/history.php?authorization_code=" + code;
+                document.getElementById('details').innerHTML = code;
+            }
+        );
+    </script>
+</head>
+<body>
+<h1>Authorization Code:</h1>
+<pre style="white-space:pre-wrap;" id="details"></pre>
+</body>
+</html>

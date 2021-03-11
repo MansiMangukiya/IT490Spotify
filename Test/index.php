@@ -69,6 +69,7 @@ li a:hover {
   <li><a href="http://10.192.232.181:3000">Listening Party</a></li>
   <li><a href="https://magicplaylist.co/#/?_k=yejv8w">Song Reccommendation</a></li>
   <li><a href="http://localhost:2000">Chat</a></li>
+  <li><a href="http://localhost:1000">Recently Played</a></li>
 </ul>
 
 
